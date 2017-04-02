@@ -1,3 +1,5 @@
+NOTE: This is still work in progress. Nothing to show for now. I'll update this when i put in the emulator and compiler in and hook them up to the robots.
+
 DroidQuest ASM
 ==========
 
