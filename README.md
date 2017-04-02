@@ -1,5 +1,11 @@
-DroidQuest
+DroidQuest ASM
 ==========
+
+This is a clone of https://github.com/ThomasFooteDQ/DroidQuest
+
+This clone implements MSP430 processor in each of the robots and provides a consolle to access and program it in Assembly language.
+
+You can search on the web for "msp430 assembly" or "msp430 instruction set" for more information.
 
 A Java recreation of the classic game Robot Odyssey I
 
