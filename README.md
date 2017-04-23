@@ -46,23 +46,23 @@ Controls:
 Note: On OS X, control + arrow-keys are bound to Apple's "Mission Control".  I switched to the 'shortcut' modifier which is control on windows and command on OS X.  Alternatively, you can disable
 built in OS X shortcuts via System Preferences -> Keyboard -> Shorcuts.
 
-Sample Program 
+Sample Program:
 
 	// bounce left and right off the walls
-	GO:		BIT #1, STATE
-			JNZ RUN_R
-			BIS #LT, R15
-			BIC #RT, R15
-			JMP CHECK
+	GO:	BIT #1, STATE
+		JNZ RUN_R
+		BIS #LT, R15
+		BIC #RT, R15
+		JMP CHECK
 	RUN_R:	BIC #LT, R15
-			BIS #RT, R15
+		BIS #RT, R15
 
 	CHECK:	BIT #RS, R15
-			JZ CHK_RS
-			BIS #1, STATE
+		JZ CHK_RS
+		BIS #1, STATE
 	CHK_RS:	BIT #LS, R15
-			JZ EXIT
-			BIC #1, STATE
+		JZ EXIT
+		BIC #1, STATE
 
 	EXIT:	RETI
 
