@@ -238,4 +238,7 @@ public class Bumper extends Device {
         robot = null;
     }
 
+    public int Rotation() {
+    	return rotation;
+    }
 }

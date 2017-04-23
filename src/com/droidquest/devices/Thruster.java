@@ -208,4 +208,7 @@ public class Thruster extends Device {
         robot = null;
     }
 
+    public int Rotation() {
+    	return rotation;
+    }
 }

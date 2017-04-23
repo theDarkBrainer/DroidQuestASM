@@ -4,6 +4,7 @@ import com.droidquest.Room;
 import com.droidquest.chipstuff.Port;
 import com.droidquest.decorations.Spark;
 import com.droidquest.devices.Device;
+import com.droidquest.devices.ProcessorMSP430;
 import com.droidquest.levels.Level;
 import com.droidquest.materials.*;
 
@@ -107,6 +108,7 @@ public class GenericRobot extends Item {
         downPortal = new Rectangle(10, 24, 12, 18);
 
         level.items.addElement(new PowerSwitch(17 * 28 - 4, 9 * 32 - 4, InternalRoom));
+        level.items.addElement(new ProcessorMSP430(15 * 28 - 4, 10 * 32 - 4, InternalRoom, c));
 
         GenerateIcons();
         Animate();
